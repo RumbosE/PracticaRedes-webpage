@@ -80,3 +80,23 @@ div .items-container{
     margin: 10px;
     padding: 10px;
 }
+
+.items-container:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.image-container:hover {
+    transform:scale(1.09);
+}
+
+img:hover{
+    transform:rotate3d(1, 1, 1, 20deg);
+}
+
+nav:hover{
+    transform: scale(1.05);
+}
+
+.text-container:hover{
+    transform: scale(0.98);
+}
